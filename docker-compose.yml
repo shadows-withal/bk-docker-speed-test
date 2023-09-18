@@ -7,3 +7,4 @@ services:
       - .:/app
     environment:
       - CLOUDFLARE_API_TOKEN
+      - PATH
