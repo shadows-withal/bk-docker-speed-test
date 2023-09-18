@@ -2,7 +2,6 @@ version: "2"
 services:
   build:
     image: vibbioinfocore/rust-node-ci
-    build: .
     working_dir: /app
     volumes:
       - .:/app
